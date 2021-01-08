@@ -9,7 +9,7 @@ p {
   color: green;
 }
 ol {
-  list-style-type:A;
+  list-style-type:upper-A;
 }
 ul {
   list-style-type:square;
