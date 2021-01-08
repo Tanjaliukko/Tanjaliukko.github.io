@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: black;
   color: white;
 }
 h1 {
@@ -17,6 +17,7 @@ ul {
 }
 div {
   border-style: dotted 2px;
+  border-color: red;
   width: 100px;
   height: 100px;
 }
