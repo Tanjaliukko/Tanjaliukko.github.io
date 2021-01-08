@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color:white;
+  color: white;
 }
 h1 {
   font-size: 20px;
@@ -13,8 +13,12 @@ ol {
   list-style-type: upper-alpha;
 }
 ul {
-  list-style-type:square;
+  list-style-type: square;
 }
-
+div {
+  border-style: dotted 2px;
+  width: 100px;
+  height: 100px;
+}
 
 
