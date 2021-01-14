@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Moduuli 4</title>
-    
-    <link rel = "stylesheet"
-       type = "text/css"
-       href = "second.css" />
-    
-    <style>
-      
-    
+
+<!--Linkki css tiedostoon, joka sijaitsee kansiossa nimeltä css-->
+    <link rel="stylesheet"
+       href="css/second.css">
+
+
+
   </head>
+
   <body>
-    
-    <h1>Tansselin taideteoksia</h1>
-    <p>Tämä sivu sisältää muutaman Tansselin parhaimmista töistä. Kuvat ovat syntyneet Passpartout: The Starving Artist -pelissä.</p>
-    
-    <img src="helminauhoja_lila.jpg" alt="Tansselin taideteos Helminauhoja Lilalla" width="200">
-    <!--img src="simmuloita.jpg" alt="Tansselin taideteos Simmuloita" width="200"-->
-    <!--img src="vihreä_atomipilvi.jpg" alt="Tansselin taideteos Vihreä Atomipilvi" width="200"-->
-    <!--img src="sinisyyskasvu.jpg" alt="Tansselin taideteos Sinisyyskasvu width="200"-->
-    
-    <h2>Alla linkki takaisin pääsivulle</h2>
-    
-    <a href="index.html">Pääsivulle</a>
-  
+    <!--Jotta taustakuva olisi kaikkien alla, on sisältö laitettava div:n sisälle-->
+  <div class="bg">
+
+        <h1 class="h1Paaotsikko">Tansselin taideteoksia</h1>
+        <a href="index.html">Pääsivulle</a>
+        <h2 class="h2Esittely">Tämä sivu sisältää muutaman esimerkin Tansselin mahtavista kuvataiteellisista kyvyistä!</h2>
+      <br>
+        <h3>Alla linkki takaisin pääsivulle</h3>
+
+
+
+        <p>Kuvat ovat syntyneet Passpartout: The Starving Artist -pelissä.</p>
+        <br>
+      <div class="myDivi">
+        <p>Keräämme rahalahjoituksia rakentaaksemme marmorisen kartanon uudeksi taidekeskukseksi!
+          <br>
+        Kaikki lahjoitukset menevät suoraan ja lyhentämättömänä kartanohankkeeseen, jonka tarkoitus on suoda paremmat elinolosuhteet taiteen luomiseen.
+        Alla on nähtävillä reaaliaikainen palkki, joka kuvaa annettuja lahjoituksia ja matkaa, joka on jäljellä tavoitteen saavuttamiseen.
+        </p>
+      </div>
+
+        <h6>Tansselilla on yksinoikeus kartanoon ja sen käyttötarkoituksiin.</h6>
+
+<!--Seuraavat 2 riviä sisältävät progress barin-->
+        <label for="file">Kartanohankkeen toteutuminen</label>
+        <progress id="file" value="72" max="100"> 72% </progress>
+
+      <figure>
+        <img src="helminauhoja_lila.jpg" alt="Tansselin taideteos Helminauhoja Lilalla" width="300">
+        <figcaption>Helminauhoja Lilalla, Tansseli</figcaption>
+      </figure>
+
+      <figure>
+        <img src="simmuloita.jpg" alt="Tansselin taideteos Simmuloita" width="500">
+        <figcaption>Simmuloita, Tansseli</figcaption>
+      </figure>
+
+<!--Koska figure heitti kuvat eri riveille, joudun selvittämään joskus toiste kuinka saisin kaksi kuvaa vierekkäin samalle riville. Alemmat kaksi kuvaa mukaan kun asia on selvinnyt-->
+
+      <!--figure>
+        <img src="vihreä_atomipilvi.jpg" alt="Tansselin taideteos Vihreä Atomipilvi" width="300">
+        <figcaption>Vihreä Atomipilvi, Tansseli</figcaption>
+      </figure-->
+
+      <!--figure>
+        <img src="sinisyyskasvu.jpg" alt="Tansselin taideteos Sinisyyskasvu" width="300">
+        <figcaption>Sinisyyskasvu, Tansseli</figcaption>
+      </figure-->
+
+
+
+        <h3>Alla linkki takaisin pääsivulle</h3>
+
+        <a href="index.html">Pääsivulle</a>
+
+
+    </div>
+
   </body>
 </html>
