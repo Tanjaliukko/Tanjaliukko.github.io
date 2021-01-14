@@ -5,10 +5,10 @@ body, html {
 .bg {
   /*Taustakuva ei onnistunut venymään kaikkialle, joten se jää toiseen kertaan*/
   /*background-image: url("../pastellia_kerrakseen.jpg");*/
-  height: 100%;
+  /*height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   background-color: #ccefff;
   }
 
