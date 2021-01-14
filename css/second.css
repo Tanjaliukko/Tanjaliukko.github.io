@@ -1,4 +1,54 @@
-body {
-  background-image: url("wildflowers_field_flowers_summer.jpg");
+body, html {
+  height: 100%;
+  margin: 0;
+  }
+.bg {
+  <!--Taustakuva ei onnistunut venymään kaikkialle, joten se jää toiseen kertaan-->
+  <!--background-image: url("../pastellia_kerrakseen.jpg");-->
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(204, 239, 255);
+  }
+
+.h1Paaotsikko {
+  text-align: center;
+  color: #80002a;
+  font-size: 60px;
+  border-style: solid;
+  border-color: #290066;
+  border-width:  4px;
+  background-image: url("../pastellia_kerrakseen.jpg");
+  background-image:
+
 }
+
+.h2Esittely {
+    color: ;
+    font-size: 25px;
+    text-align: center;
+  }
+
+p {font-size: 20px;
+  }
+
+img {border: 6px solid #290066;
+  }
+
+.myDivi {
+    border-style: solid;
+    border-color: #290066;
+  	border-width: 2px;
+    border-radius: 8px;
+    width: 1200px;
+    height: 100px;
+    background-color: #ccddff;
+    background-image: linear-gradient(#ccddff, #b3ccff);
+<!--Tämän alla sijainteihin liittyviä asioita-->
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
