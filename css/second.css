@@ -3,8 +3,8 @@ body, html {
   margin: 0;
   }
 .bg {
-  <!--Taustakuva ei onnistunut venymään kaikkialle, joten se jää toiseen kertaan-->
-  <!--background-image: url("../pastellia_kerrakseen.jpg");-->
+  /*Taustakuva ei onnistunut venymään kaikkialle, joten se jää toiseen kertaan*/
+  /*background-image: url("../pastellia_kerrakseen.jpg");*/
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ img {border: 6px solid #290066;
     height: 100px;
     background-color: #ccddff;
     background-image: linear-gradient(#ccddff, #b3ccff);
-<!--Tämän alla sijainteihin liittyviä asioita-->
+/*Tämän alla sijainteihin liittyviä asioita*/
     padding: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
