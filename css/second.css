@@ -9,7 +9,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(204, 239, 255);
+  background-color: #ccefff;
   }
 
 .h1Paaotsikko {
@@ -20,8 +20,6 @@ body, html {
   border-color: #290066;
   border-width:  4px;
   background-image: url("../pastellia_kerrakseen.jpg");
-  background-image:
-
 }
 
 .h2Esittely {
