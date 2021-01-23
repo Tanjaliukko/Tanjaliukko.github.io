@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-.bg {
-  background-color: #ccefff;
-}
-
 /*alla 4 riviä koodia, joka keskittää nettisivut irti reunoista*/
 body {
 width: 90%;
