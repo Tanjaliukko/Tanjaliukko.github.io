@@ -13,15 +13,10 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.linkitDivi {
-  hbackground-color: red;
-}
-
 .linkitDivi::after {
   content: "";
   clear: both;
   display: table;
-  fbackground-color: #cce6ff;
 }
 
 [class*="col-"] {
